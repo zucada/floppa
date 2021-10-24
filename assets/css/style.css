@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #0A1128;
+    --secondary-color: crimson;
+    --white: #FFFFFF;
+    --light: #EEEEEE;
+    --gap: 30px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1;
+}
+
+.white-bg {
+    background-color: rgb(6, 54, 63);
+}
+
+
+.menu h1 {
+    display: flex;
+    font-size: 2.3rem;
+    color: var(--white);
+    justify-content: center;
+}
+
+.menu h1 a {
+    text-decoration: none;
+    margin: 0 5px;
+    color: var(--white);
+}
+
+.main-bg {
+    background-image: url('../images/xdxd.gif');
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    min-height: 100vh;
+    padding-top: 90px;
+}
+
+iframe {
+    border: 5px solid rgb(6, 54, 63);
+}
+
+
+p {
+    font-size: 20px;
+    width: 300px;
+    color: var(--white);
+    background-color: rgb(6, 54, 63);
+    padding: 10px;
+    height: 300px;
+}
+
+
+h2 {
+    text-align: center;
+    color: var(--white);
+    padding: 10px;
+}
+
+.gif-box {
+    display: flex;
+    margin-top: 60px;
+    margin-right: 450px;
+    margin-bottom: -30px;
+    justify-content: flex-end;
+}
+
+.gif {
+    width: 100px;
+}
